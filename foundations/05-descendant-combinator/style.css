@@ -1,6 +1,17 @@
-.container .text{
+/*.container .text{
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
 }
+This option uses the two classes to select the styled text
+*/
+
+
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/*Bonus round option here, this uses the class and then type selector to select the styled text */
