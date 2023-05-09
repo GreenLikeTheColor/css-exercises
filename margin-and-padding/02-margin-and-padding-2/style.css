@@ -20,6 +20,8 @@ body {
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  /*Putting two values adjusts top and then right values - doesn't need bottom or left, as it auto calculates those values*/
 }
 
 .button-container {
