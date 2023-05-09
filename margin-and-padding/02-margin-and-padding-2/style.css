@@ -1,7 +1,6 @@
 body {
   background: #eee;
   font-family: sans-serif;
-  padding: 8px;
 }
 
 .card {
@@ -21,14 +20,22 @@ body {
 .content {
   background: #e3f4ff;
   padding: 16px 8px;
+  width: 350px;
   /*Putting two values adjusts top and then right values - doesn't need bottom or left, as it auto calculates those values*/
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  margin: auto;
+  width: 350px;
+  
 }
 
 button {
+  display: block;
+  margin: auto;
+  width: 30%;
   background: white;
   border: 1px solid #eee;
 }
